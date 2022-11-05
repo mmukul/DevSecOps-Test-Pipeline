@@ -21,7 +21,7 @@ pipeline {
       stage('Checkout project'){
         steps {
           echo 'downloading git directory..'
-	  git 'https://github.com/web-codegrammer/DevSecops-Test-Pipeline.git'
+	  git 'https://github.com/mmukul/DevSecOps-Test-Pipeline.git'
         }
       }      
       stage('git secret check'){
